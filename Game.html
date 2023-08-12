@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Quiz-Spiel</title>
+</head>
+<body>
+  <div id="quizSelection">
+    <label for="quizSelect">Wähle ein Quiz aus:</label>
+    <select id="quizSelect">
+      <option value="0">Quiz 1: Allgemeinwissen</option>
+      <option value="1">Quiz 2: Geografie</option>
+      <!-- Weitere Quiz-Optionen hinzufügen -->
+    </select>
+    <button id="startButton">Start</button>
+  </div>
+  <div id="quizArea">
+    <h1 id="question"></h1>
+    <div id="options"></div>
+  </div>
+  <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="0.5">
+  <audio id="bgMusic" loop>
+    <source src="background_music.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>

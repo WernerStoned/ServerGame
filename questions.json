@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Quiz 1: Allgemeinwissen",
+    "questions": [
+      {
+        "question": "Was ist die Hauptstadt von Frankreich?",
+        "options": ["Berlin", "Madrid", "Paris", "Rom"],
+        "correctOption": 2
+      },
+      {
+        "question": "Welches Element hat das chemische Symbol H?",
+        "options": ["Helium", "Hydrogen", "Stickstoff", "Sauerstoff"],
+        "correctOption": 1
+      }
+    ]
+  },
+  {
+    "title": "Quiz 2: Geografie",
+    "questions": [
+      {
+        "question": "Welcher Fluss fließt durch Ägypten?",
+        "options": ["Nil", "Amazonas", "Donau", "Jangtsekiang"],
+        "correctOption": 0
+      },
+      {
+        "question": "In welchem Land liegt die Stadt Sydney?",
+        "options": ["USA", "Großbritannien", "Australien", "Kanada"],
+        "correctOption": 2
+      }
+    ]
+  }
+  // Weitere Quiz-Blöcke hinzufügen
+]
