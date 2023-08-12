@@ -15,7 +15,8 @@ let score = 0;
 startButton.addEventListener("click", startQuiz);
 
 function loadQuestions() {
-  fetch('questions.json') // Lade die Fragen aus der JSON-Datei
+  fetch('
+https://github.com/WernerStoned/ServerGame/blob/main/questions.json') // Lade die Fragen aus der JSON-Datei
     .then(response => response.json())
     .then(data => {
       quizzes = data; // Speichere die geladenen Fragen im quizzes-Array
